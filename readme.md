@@ -1,17 +1,18 @@
-# Gerador de Currículos
+# Gerador de Currículos em PHP
 
-Este projeto é um gerador de currículos desenvolvido em PHP, com frontend em HTML, CSS, JavaScript e jQuery. Utiliza Bootstrap para estilização e permite ao usuário criar, visualizar e baixar um currículo personalizado.
+Este é um projeto de um gerador de currículos desenvolvido em PHP. Ele permite que os usuários preencham um formulário com suas informações pessoais, histórico educacional, experiências profissionais, qualidades, defeitos e referências. Após preencher o formulário, o usuário pode gerar e imprimir um currículo formatado.
 
 ## Funcionalidades
 
-- Inclusão de dados pessoais como nome, data de nascimento, telefone, email, endereço, CNH, qualidades e defeitos.
-- Cálculo automático de idade.
-- Adição dinâmica de experiências profissionais e históricos educacionais.
-- Upload de foto para ser incluída no currículo.
-- Geração de currículo em formato HTML, com opção para impressão.
+- Formulário de preenchimento de dados pessoais
+- Adição dinâmica de campos para experiências profissionais, histórico educacional e referências
+- Upload de foto 3x4
+- Geração de currículo em formato HTML
+- Impressão do currículo
 
-## Como Usar
+## Tecnologias Utilizadas
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/curriculo-generator.git
+- PHP para backend
+- HTML, CSS e JavaScript para frontend
+- jQuery para manipulação dinâmica de campos
+- XAMPP para ambiente de desenvolvimento local
